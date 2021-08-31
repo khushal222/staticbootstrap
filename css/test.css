@@ -1,0 +1,75 @@
+/*--------------------------test----------------------------------------------------*/
+/*body
+{
+  background-color: black;
+}*/
+.over
+{
+position: relative;
+width: 50%;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.overlay 
+{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: black;
+  /*background: linear-gradient(to top, #000000 10%, #ffffff 100%);*/
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  display: none;
+  transition: .1s ease;
+  opacity: 0.7;
+  cursor: pointer;
+}
+.over:hover .overlay 
+{
+  height: 100%;
+  display: block;
+}
+.text {
+  width: 300px;
+  color:white;
+  font-size: 15px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.hh
+{
+	background-color: red;
+	height: 3.5px;
+	width: 100%;
+}
+.text-center i
+{
+  margin: 20px;
+  color: lightblue;
+}
+.text-center i:hover
+{
+color: blue;
+cursor: pointer;
+transform: scale(2.5);
+/*transform: rotateY(180deg);*/
+transition: 0s;
+}
+.text b:hover 
+{
+  color:yellow;
+  transform: scale(4,9);
+  transition: 1s;
+  
+}
+/*------------------------------------------------------------col-restuarent---------------------*/

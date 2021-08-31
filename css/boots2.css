@@ -1,0 +1,33 @@
+/*---------------------------------rowcolumns------------------------------*/
+.container
+{
+	border:1px dotted red;
+	/*height: 100px;*/
+}
+.abc
+{
+	background-color: lightgreen;
+	height: 100px;
+}
+.bbc
+{
+	background-color: yellow;
+	height: 100px;
+}
+.cc
+{
+	background-color: lightblue;
+	height: 100px;
+}
+/*---------------------------------------selfcolumns---------------------*/
+.ff
+{
+	background-color:pink;
+	height:100px;
+}
+/*---------------------------------------horizontal--columns---------------------*/
+.hh
+{
+	background-color:pink;
+	height:50px;
+}

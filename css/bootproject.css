@@ -1,0 +1,329 @@
+/*-----------------------------------------------------------------------HOME-PAGE--------------------------------------------------------------------------------*/
+/*-------------------nav-bar-------------*/
+.nav-img
+{
+	height: 25px;
+	text-align: center;
+}
+.nav-button:hover
+{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transform: scale(1.03,1.03);
+	transition: 0.1s;
+}
+.nav-button1:hover
+{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	transform: scale(1.05,1.05);
+	transition: 0.1s;
+	color: red;
+}
+/*-----------------carousal-------------*/
+.carousel-content 
+{
+  position: absolute;
+  bottom: 35%;
+  left: 12%;
+  z-index: 20;
+  color: white;
+  /*text-shadow: 0 1px 2px rgba(0,0,0,.6);*/
+}
+.carousel-img 
+{
+filter:brightness(70%);
+background-attachment:scroll;
+}
+.carousel-caption {
+    position: absolute;
+    /*z-index: 1;*/
+    display:table;
+    width:100%;
+    height:100%;
+}
+
+/*----------------services--------------*/
+.service-card:hover
+{
+	transform: scale(1.022);
+	transition: 1s;
+}
+.hh:hover
+{
+	color: blue
+}
+/*---------------today-video-----------*/
+.today-img
+{
+	filter:brightness(70%);
+}
+.todaybutton
+{
+	margin-top: 70px;
+}
+.today-fafa:hover
+{
+	color: white;
+}
+
+/*------------case-studies-------------*/
+.text-deco:hover
+{
+	text-decoration: none;
+}
+.case-img:hover
+{
+	transform: scale(1.22);
+	transition: .0s;
+	cursor: pointer;
+}
+.case-title:hover
+{
+	color: blue;
+	cursor: pointer;
+}
+.case-text-none a
+{
+	text-decoration: none;
+}
+.case-text-none a:hover
+{
+	font-style: italic;
+	color: red;
+}
+/*-------------team-member-------------*/
+.team:hover
+{
+	transform: scaleY(1.022);
+	transition: 1s;
+	cursor: pointer;
+	/*border: 2px groove darkblue;*/
+	box-shadow: 300px 500px 500px  500px  red inset;
+}
+.team-title:hover
+{
+	text-decoration: underline blue;
+}
+/*--------------daily-blog-------------*/
+.daily:hover
+{
+	transform: scale(1.11);
+	transition: .0s;
+	cursor: pointer;
+	box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+/*-----------------------------------------------------------------------ABOUT-PAGE----------------------------------------------*/
+.about-body
+{
+
+}
+/*<!-- ----------------------------------------good-hand------------------------------------- -->*/
+.good-img
+{
+	background-position: center;
+	background-size: cover;
+	height: 70vh;
+	max-width: 100%;
+
+	
+}
+.good-h-text h1 
+{
+	padding-top:240px;
+}
+.good-h-text h1 
+{
+	font-size: 55px;
+	color: white;
+
+}
+.good-h-text p
+{
+	color: white;
+	font-size: 25px;
+}
+/*----------------------------------------------ambitious----------------------------------------------------*/
+.ambitious-button
+{
+	/*margin-top: 190px;*/
+}
+.ambitious-fafa:hover
+{
+	color: red;
+}
+.ambitious-fafa
+{
+	color: blue;
+}
+/*----------------------------------------------ambitious-BRAND----------------------------------------------------*/
+.ambi-brand-height
+{
+	overflow: hidden; /*for overflow-hidden */
+}
+.opp
+{
+	position: relative;
+	float: left;
+	margin: 2px;
+}
+.opp img
+{
+	display: block;
+	padding: 20px;
+
+}
+.overlay
+{
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	height: 0px;
+	overflow:hidden;
+	background-color:black ;
+	transition: .1s ease-in-out;
+	/*opacity: 0.5;*/
+}
+.opp:hover .overlay
+{
+	bottom: 0px;
+	height: 100%;
+}
+.text
+{
+	color: white;
+	font-size: 20px;
+	padding: 0px;
+	position: absolute;
+	top: 8px;
+  	left: 16px;
+	text-align:left;
+}
+.text:hover 
+{
+	color: red;
+	cursor: pointer;
+}
+.text-h6
+{
+	color: white;
+	font-size: 10px;
+	position: absolute;
+	bottom: 8px;
+  	left: 16px;
+	text-align:left;
+}
+
+/*<!-- -----------------------------------------------progress-bar---------------------------------- -->*/
+.progress-bar-cont-f
+{
+	height: 500px;
+}
+.progress-bar-cont
+{
+	color: white;
+	padding: 80px;
+}
+.progress-bar-cont h2
+{
+	color: white;
+	padding: px;
+	font-size: 45px;
+}
+.prog-bar:hover
+{
+	transform: scale(1.022);
+	transition: .0s;
+	cursor: pointer;
+	
+}
+.prog-bar:hover
+{
+	color:red;
+}
+
+/*<!-- -------------------------------------------------------------business-better------------------------------------- -->*/
+.business-card:hover
+{
+	transform: scale(1.022);
+	transition: .0s;
+	cursor: pointer;
+}
+/*-----------------------------------------------------------------------BLOG-PAGE-------------------------------------------------*/
+/*<!-- --------------------------------------blogs-img------------------------------------- -->*/
+.blogs-img
+{
+	position: relative;
+	
+}
+.blog-h5-text
+{
+	position: absolute;
+	top: 55px;
+	left: 235px;
+  	color: white;
+}
+.blog-p-text
+{
+	position: absolute;
+	top: 55px;
+  	right: 235px;
+  	color:white;
+  	opacity: 0.7;
+}
+/*<!-- -------------------------------------------card-blogs---------------------------------------- -->*/
+.inner
+{
+	overflow: hidden;
+}
+.inner:hover img
+{
+	transition: all 1.5s ease;
+	transform: scale(1.2);
+}
+/*<!-- ------------------------------------------footer----------------------------------------------------- -->*/
+
+/*----------------------------------------------------contact-page-----------------------------------*/
+.contact-img
+{
+  	background-size: cover;
+	background-attachment:fixed;
+	display: table;
+	height: 80vh;
+	max-width: 100%;
+}
+.contact-img-text
+{
+	padding-top:250px;
+}
+.contact-img-text h1
+{
+	font-size: 50px;
+	color: white;
+}
+.contact-img-text p
+{
+	font-size: 20px;
+	color: white;
+}
+
+
+/*<!-- -----------------------------------------------contact-img-value-time----------------------------------------- -->*/
+
+/*<!-- ----------------------------------------------------map---------------------------------------------------------- -->*/
+
+/*<!-- ---------------------------------------------------------community-card------------------------------------------------------ -->*/
+.community-c:hover
+{
+	transform: scale(1.02);
+	transition: 0s;
+	cursor:pointer;
+}
+/*<!-- ----------------------------------------------------footer----------------------------------------------- -->*/
+
+.box
+{
+	height: 100px;
+	width: 200px;
+	background-color: red;
+	margin: 5px;
+}
